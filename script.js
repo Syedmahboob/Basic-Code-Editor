@@ -2,15 +2,15 @@
 
 function run() {
   // get input variables
-  let htmlC = document.getElementById("htmlCode").value;
-  let cssC = document.getElementById("cssCode").value;
-  let jsC = document.getElementById("jsCode").value;
-  let display = document.getElementById("output");
+  let htmlCode = document.getElementById("htmlCode").value;
+  let cssCode = document.getElementById("cssCode").value;
+  let jsCode = document.getElementById("jsCode").value;
+  let output = document.getElementById("output");
 
   //   result display
-  display.contentDocument.body.innerHtml =
-    htmlC + " <style> " + cssC + "</style>";
-  display.contentWindow.eval(jsC);
+  output.contentDocument.body.innerHtml =
+    htmlCode + " <style> " + cssCode + "</style>";
+  output.contentWindow.eval(jsCode);
 }
 
 run();

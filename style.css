@@ -9,7 +9,7 @@
 /* body */
 body {
   background: #575555;
-  color: #fff;
+  /* color: #fff; */
   height: 100vh;
 }
 
@@ -25,7 +25,7 @@ body {
 .left,
 .right {
   flex-basis: 50%;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding: 5px;
 }
 

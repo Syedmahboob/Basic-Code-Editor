@@ -25,30 +25,34 @@
         <h2>CodePencil<i class="fa-solid fa-pencil"></i></h2>
     </div>
 
+    <!-- <h1>Test</h1> -->
 
     <!-- 1 -->
     <div class="container">
+        <!-- input box -->
         <div class="left">
             <!-- a.html -->
             <label id="h"><i class="fa-brands fa-html5"></i>HTML</label>
-            <textarea id="htmlCode" onkeyup="run()"></textarea>
+            <textarea id="htmlCode" onkeyup="run()" placeholder="Enter Html code...!"></textarea>
             <!-- b.css -->
             <label id="c"><i class="fa-brands fa-css3-alt"></i>CSS</label>
-            <textarea id="cssCode" onkeyup="run()"></textarea>
+            <textarea id="cssCode" onkeyup="run()" placeholder="Enter Css code...!"></textarea>
             <!-- c.js -->
             <label id="j"><i class="fa-brands fa-square-js"></i>javaScript</label>
-            <textarea id="jsCode" onkeyup="run()"></textarea>
+            <textarea id="jsCode" onkeyup="run()" placeholder="Enter JS code...!"></textarea>
         </div>
+        <!-- output box -->
         <div class="right">
             <label id="op"><i class="fa-solid fa-play"></i> OutPut</label>
             <iframe id="output"></iframe>
+
         </div>
     </div>
 
 
 
     <!-- link js -->
-    <script src="./script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
