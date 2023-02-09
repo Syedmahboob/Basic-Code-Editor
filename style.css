@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&family=Source+Code+Pro:wght@500&family=Teko:wght@300&family=Tiro+Devanagari+Hindi&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* body */
+body {
+  background: #575555;
+  color: #fff;
+  height: 100vh;
+}
+
+/* container */
+.container {
+  width: 100%;
+  height: 100vh;
+  padding: 15px;
+  display: flex;
+}
+
+/* 2boxes */
+.left,
+.right {
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+/* text area */
+textarea {
+  width: 100%;
+  height: 30%;
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 0;
+  outline: 0;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9375rem;
+}
+
+/* o/p */
+iframe {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  /* color: black; */
+}
+
+#h {
+  color: tomato;
+  background: rgb(14, 14, 14);
+}
+
+#c {
+  color: skyblue;
+  background: rgb(14, 14, 14);
+}
+
+#j {
+  color: yellow;
+  background: rgb(14, 14, 14);
+}
+
+#op {
+  background: rgb(14, 14, 14);
+  color: #ffffff;
+}
+
+/* giving margin to icons  */
+
+label i {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  /* font-family: "Fira Code", monospace; */
+  color: #ffffff;
+}
+
+.h22 {
+  /* margin: 8px; */
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  height: 60px;
+  background: #000000;
+  /* margin-top: 0; */
+}
+
+.h22 i {
+  padding: 5px;
+}
+
+h2 {
+  font-size: 26px;
+  background: -webkit-linear-gradient(#ff00dd, #ff000d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
